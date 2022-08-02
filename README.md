@@ -6,6 +6,8 @@ Splits an input gcode file into multiple sections for manual material changes.
 
 ### Config
 
+You can change a few settings in the file `splitgcode.yaml`
+
 ```yaml
 layers:
   format: ";LAYER:{}"
