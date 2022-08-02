@@ -163,6 +163,7 @@ class GCodeSections:
             file = open(path, "w")
             file.write(self.header)
             file.write("; Split with splitgcode.py by Bryce Dixon\n")
+            file.write("; https://github.com/BtheDestroyer/splitgcode\n")
             file.write("; Split section {} (layers {}-{})\n".format(current_section, current_layer, section_end - 1))
             if current_layer != 0:
                 file.write("G92 E{} ; Set current extrusion to continue where we left off\n".format(self.layer_extrusions[current_layer]))
