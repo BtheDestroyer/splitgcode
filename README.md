@@ -16,8 +16,8 @@ debug: false
 ```
 
 * layers: Layer related configuration
-** format: Format string to use when recognizing layers. If your slicer uses a different comment format at the start of every layer, change this to match
-** footer: The first line after the last layer in your file.
+  * format: Format string to use when recognizing layers. If your slicer uses a different comment format at the start of every layer, change this to match
+  * footer: The first line after the last layer in your file.
 * debug: If `true`, additional debug info will be printed.
 
 ### Commands
