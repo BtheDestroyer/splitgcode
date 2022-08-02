@@ -1,0 +1,4 @@
+layers:
+  format: ";LAYER:{}"
+  footer: "M104 S0 ;Extruder heater off"
+debug: false
